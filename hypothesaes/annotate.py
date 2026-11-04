@@ -91,18 +91,24 @@ def annotate_single_text(
     timeout: Optional[float] = None,
     reasoning_effort: Optional[str] = None,
     verbosity: Optional[str] = None,
+    prompt_suffix: Optional[str] = None,
     **completion_kwargs,
 ) -> Tuple[Optional[int], float]:  # Return tuple of (result, api_time)
     """
     Annotate a single text with given concept using LLM.
     Returns (annotation, api_time) where annotation is 1 (present), 0 (absent), or None (failed).
+
+    prompt_suffix is appended to the annotation prompt, e.g. " /no_think" to turn off
+    Qwen3's thinking mode, which is not needed for yes/no annotation and is much slower.
     """
     if max_words_per_example:
         text = truncate_text(text, max_words_per_example)
-        
+
     annotate_prompt = load_prompt(annotate_prompt_name)
     system_prompt = load_prompt(system_prompt_name) if system_prompt_name is not None else None
     prompt = annotate_prompt.format(hypothesis=concept, text=text)
+    if prompt_suffix:
+        prompt += prompt_suffix
     
     total_api_time = 0.0
     for attempt in range(max_retries):
