@@ -13,7 +13,8 @@ import modal
 
 MODEL = "Qwen/Qwen3-8B"
 GPU = ["L4", "A10G"]  # both 24 GB (Qwen3-8B in bf16 needs ~16 GB); A10G is the fallback when L4s are scarce
-MAX_MODEL_LEN = 8192
+# Interpretation prompts hold 20 stories (~7K tokens); 8192 left too little room for Qwen3's thinking
+MAX_MODEL_LEN = 16384
 SCALEDOWN_MINUTES = 5
 PORT = 8000
 
