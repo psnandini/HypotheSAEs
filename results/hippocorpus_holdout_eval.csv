@@ -1,0 +1,21 @@
+hypothesis,separation_score,separation_pval,regression_coef,regression_pval,feature_prevalence
+mentions being a speaker or presenter at an event,0.065713,0.227870,0.378898,0.108509,0.083560
+mentions traveling to new locations and engaging in outdoor activities,0.048114,0.112962,0.378987,0.011330,0.442325
+mentions a health condition requiring frequent medical attention,0.043518,0.189655,0.311337,0.077932,0.291553
+mentions a personal milestone that is celebrated with family and friends,0.032096,0.287472,0.327755,0.054128,0.485922
+describes a life-threatening or traumatic event that the narrator experienced or witnessed,0.022656,0.475993,0.029298,0.866827,0.342416
+mentions a personal crisis involving financial or health issues that results in a significant emotional impact,0.018206,0.548526,0.251055,0.218489,0.554042
+mentions pregnancy,0.014340,0.708272,0.062455,0.730309,0.191644
+mentions a personal health crisis or a significant life decision,0.004879,0.882932,0.081794,0.686903,0.706630
+mentions a child's academic or developmental milestone,0.003458,0.930833,-0.005715,0.975661,0.173479
+mentions a decision to move or relocate to a new location,-0.004291,0.901541,0.001994,0.989536,0.253406
+mentions a pet or animal,-0.008321,0.787019,-0.046962,0.739650,0.399637
+mentions the narrator achieving a personal milestone that results in a positive life change,-0.013824,0.651290,-0.048058,0.755947,0.582198
+mentions a situation involving the narrator's involvement in a social or community-related problem,-0.015032,0.665440,-0.021732,0.900217,0.748411
+mentions a celebration or social gathering,-0.018378,0.551581,-0.206417,0.210005,0.605813
+mentions a person experiencing mental health issues or seeking treatment,-0.031173,0.315376,-0.254645,0.136237,0.381471
+mentions overcoming personal challenges through self-reflection,-0.050934,0.091999,-0.218367,0.152672,0.535876
+mentions physical exercise or training,-0.059617,0.085779,-0.362097,0.022271,0.252498
+mentions infidelity or betrayal in a relationship,-0.063501,0.178539,-0.180060,0.385902,0.115350
+mentions a mentor or instructor who provides guidance and support,-0.064234,0.110394,-0.240231,0.178594,0.168937
+mentions a personal relationship with a friend or family member,-0.066325,0.190779,-0.331143,0.134139,0.901907

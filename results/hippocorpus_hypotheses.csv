@@ -1,0 +1,21 @@
+neuron_idx,target_correlation,interpretation,f1_fidelity_score
+26,0.108062,mentions being a speaker or presenter at an event,0.666667
+41,0.084496,mentions a personal health crisis or a significant life decision,0.666667
+4,0.064890,mentions a personal milestone that is celebrated with family and friends,0.786325
+6,0.049303,mentions traveling to new locations and engaging in outdoor activities,0.900901
+14,0.043792,mentions a child's academic or developmental milestone,0.900000
+240,0.042968,mentions a person experiencing mental health issues or seeking treatment,0.647619
+67,-0.043490,mentions infidelity or betrayal in a relationship,0.409091
+104,-0.044715,mentions pregnancy,0.791667
+116,-0.046252,mentions overcoming personal challenges through self-reflection,0.649123
+181,-0.046473,mentions a mentor or instructor who provides guidance and support,0.451613
+78,-0.049626,mentions a celebration or social gathering,0.596491
+69,-0.050027,describes a life-threatening or traumatic event that the narrator experienced or witnessed,0.653061
+18,-0.050337,mentions a decision to move or relocate to a new location,0.673913
+12,-0.050513,mentions physical exercise or training,0.795918
+174,-0.051224,mentions a pet or animal,0.500000
+222,-0.058037,mentions a personal crisis involving financial or health issues that results in a significant emotional impact,0.557692
+180,-0.063248,mentions a situation involving the narrator's involvement in a social or community-related problem,0.651163
+201,-0.066347,mentions a health condition requiring frequent medical attention,0.558140
+159,-0.070676,mentions the narrator achieving a personal milestone that results in a positive life change,0.752000
+237,-0.092788,mentions a personal relationship with a friend or family member,0.689655
