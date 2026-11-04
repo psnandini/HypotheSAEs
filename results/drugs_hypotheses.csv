@@ -1,0 +1,21 @@
+neuron_idx,target_correlation,interpretation,f1_fidelity_score
+5,0.6577694465780569,mentions a specific dosage in milligrams,0.28947368421052627
+26,-0.4704981806053362,"mentions severe psychological symptoms including depression, suicidal thoughts, and panic attacks",0.7722772277227723
+29,0.24522528568527985,mentions the medication caused the user to feel happy or energetic,0.717391304347826
+3,-0.22285071317692232,mentions the medication not working,0.7538461538461539
+13,-0.14636778813801646,mentions a specific adverse reaction with multiple symptoms,0.6
+14,-0.13736084036701873,mentions severe itching and burning from yeast infection treatment,0.9615384615384615
+83,-0.12899118625325143,mentions severe nausea and vomiting,0.693069306930693
+6,-0.12621941150683816,mentions prolonged menstrual bleeding,0.9142857142857144
+22,0.11246900588396305,mentions anxiety or panic attacks,0.7936507936507937
+17,0.10848906653152994,mentions the medication being effective for a specific pain-related condition,0.7377049180327869
+36,0.10092333095256392,mentions absence of side effects,0.6942148760330579
+146,-0.10075945990682636,"mentions specific side effects that include nausea and headaches, along with mood swings and weight changes",0.7768595041322315
+10,0.0986455616983675,mentions the medication being used to treat opiate addiction,0.8571428571428572
+20,0.09838924041649717,mentions the medication by name (Chantix/Champix),0.8080808080808082
+136,-0.09659787482212846,"mentions specific neurological symptoms such as hallucinations, numbness, and vision disturbances",0.7387387387387387
+150,-0.09553617184404614,mentions vomiting,0.6804123711340208
+15,-0.09475345679726166,mentions not getting pregnant,0.9504950495049505
+7,0.09229628821643049,mentions Suboxone as a treatment for opiate addiction,0.417910447761194
+123,-0.09212734821360678,"mentions experiencing severe side effects such as vision blurriness, lethargy, and dry skin",0.7719298245614036
+19,0.08801694295595308,"mentions specific weight metrics (e.g., pounds, lbs, or numerical values) related to weight loss progress",0.9696969696969697
