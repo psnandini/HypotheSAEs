@@ -1,21 +1,21 @@
 hypothesis,separation_score,separation_pval,regression_coef,regression_pval,feature_prevalence
-mentions being a speaker or presenter at an event,0.065713,0.227870,0.378898,0.108509,0.083560
-mentions traveling to new locations and engaging in outdoor activities,0.048114,0.112962,0.378987,0.011330,0.442325
-mentions a health condition requiring frequent medical attention,0.043518,0.189655,0.311337,0.077932,0.291553
-mentions a personal milestone that is celebrated with family and friends,0.032096,0.287472,0.327755,0.054128,0.485922
-describes a life-threatening or traumatic event that the narrator experienced or witnessed,0.022656,0.475993,0.029298,0.866827,0.342416
-mentions a personal crisis involving financial or health issues that results in a significant emotional impact,0.018206,0.548526,0.251055,0.218489,0.554042
-mentions pregnancy,0.014340,0.708272,0.062455,0.730309,0.191644
-mentions a personal health crisis or a significant life decision,0.004879,0.882932,0.081794,0.686903,0.706630
-mentions a child's academic or developmental milestone,0.003458,0.930833,-0.005715,0.975661,0.173479
-mentions a decision to move or relocate to a new location,-0.004291,0.901541,0.001994,0.989536,0.253406
-mentions a pet or animal,-0.008321,0.787019,-0.046962,0.739650,0.399637
-mentions the narrator achieving a personal milestone that results in a positive life change,-0.013824,0.651290,-0.048058,0.755947,0.582198
-mentions a situation involving the narrator's involvement in a social or community-related problem,-0.015032,0.665440,-0.021732,0.900217,0.748411
-mentions a celebration or social gathering,-0.018378,0.551581,-0.206417,0.210005,0.605813
-mentions a person experiencing mental health issues or seeking treatment,-0.031173,0.315376,-0.254645,0.136237,0.381471
-mentions overcoming personal challenges through self-reflection,-0.050934,0.091999,-0.218367,0.152672,0.535876
-mentions physical exercise or training,-0.059617,0.085779,-0.362097,0.022271,0.252498
-mentions infidelity or betrayal in a relationship,-0.063501,0.178539,-0.180060,0.385902,0.115350
-mentions a mentor or instructor who provides guidance and support,-0.064234,0.110394,-0.240231,0.178594,0.168937
-mentions a personal relationship with a friend or family member,-0.066325,0.190779,-0.331143,0.134139,0.901907
+mentions a specific event involving personal challenges or social interactions leading to some form of resolution or reflection,0.30638686131386855,0.17188112598323035,19.487250068187684,0.9982956939035562,0.9954586739327884
+describes a personal experience that led to a significant life change,0.1348963242224317,0.09407471395109518,0.6246492726885964,0.10974509260686106,0.963669391462307
+mentions traveling to a new state or relocating to a different location,0.05628405877078019,0.06782958387059233,0.3505818036776279,0.010416109443922924,0.3960036330608538
+mentions the use of psychedelic substances,0.04128401718763164,0.7017301322439558,0.1693055778984232,0.703336453016158,0.019981834695731154
+mentions the birth of a child,0.0363814781867039,0.3062204018239108,0.21424633126636042,0.23455942844683053,0.23524069028156222
+mentions an unexpected personal revelation or crisis,0.023493408662900228,0.5362391729094157,0.2338358051736584,0.22065266275152107,0.8038147138964578
+"mentions a child's life milestone such as starting school, learning to crawl, or graduating",0.012049883423044805,0.7020928642730361,0.09356810268019748,0.5820781038379597,0.35603996366939145
+mentions a wedding event,0.006115427302996634,0.8757931397243355,0.05794526188706004,0.7299871005562051,0.18165304268846502
+mentions a personal experience with a family member's death or a significant life event involving emotional impact,0.005586740625103781,0.8535666810530543,0.25652060119137454,0.1764826858610623,0.5404178019981835
+mentions legal incarceration or mental health treatment,0.005584512285927046,0.8981043691951689,0.08443654688363264,0.6645777550318863,0.13896457765667575
+mentions a personal emotional experience related to a significant life event,0.005013673655423934,0.9840461708622723,-19.225137887357988,0.9983186175413743,0.9963669391462306
+mentions a personal event involving a planned or anticipated future activity,-0.0021878845890879184,0.9715825606976548,-0.07296805834549014,0.7850898405871062,0.935513169845595
+mentions a family member's life transition involving a major change in their living situation,-0.005478122182927647,0.8665456681663324,-0.08433363137305451,0.6108538201278475,0.6893732970027248
+mentions a family gathering with yard games and a meal,-0.0210609451099118,0.6791923807787068,-0.05511840674681812,0.8033059479059714,0.0971843778383288
+mentions the narrator's own personal loss,-0.024601788458851415,0.42797407911902224,-0.17597667854797205,0.35745050513620547,0.6176203451407811
+mentions achieving a personal goal through personal effort,-0.025737204685063964,0.39578770920865297,-0.16536522884862587,0.25090589449906864,0.5485921889191644
+mentions personal achievement or positive outcome,-0.030054644808743203,0.4582184058701779,-0.08754326905288991,0.650582981720307,0.8337874659400545
+mentions a mental health challenge or spiritual practice,-0.03148909179803644,0.29677057295507697,-0.10486061502342627,0.5118194735523655,0.48319709355131696
+mentions a neighbor or new community member,-0.04262672811059909,0.18575414605811408,-0.27499608468679876,0.052753673993422415,0.3242506811989101
+mentions a friend's emotional or relational crisis,-0.052791878172588846,0.08076382916337188,-0.3355777396922225,0.04843741678287641,0.5367847411444142
