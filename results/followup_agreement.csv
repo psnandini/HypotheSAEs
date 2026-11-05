@@ -1,0 +1,21 @@
+hypothesis,LLM prevalence,agreement AUROC,correlation
+mentions prolonged menstrual bleeding,0.18583333333333332,0.917795392686498,0.6502274741239834
+"mentions specific weight metrics (e.g., pounds, lbs, or numerical values) related to weight loss progress",0.1425,0.913292301047403,0.6259298818002654
+mentions severe itching and burning from yeast infection treatment,0.07583333333333334,0.9129797164062268,0.5326366715590078
+"mentions severe psychological symptoms including depression, suicidal thoughts, and panic attacks",0.3275,0.8775220636226908,0.6147068716016648
+mentions not getting pregnant,0.25416666666666665,0.8707335836615073,0.6036934265189164
+mentions a specific dosage in milligrams,0.2575,0.8583751938660245,0.5470881857207546
+"mentions specific side effects that include nausea and headaches, along with mood swings and weight changes",0.4691666666666667,0.8483984931587063,0.5853019852321597
+"mentions experiencing severe side effects such as vision blurriness, lethargy, and dry skin",0.46416666666666667,0.8251966349388944,0.5473253982913826
+mentions severe nausea and vomiting,0.37666666666666665,0.8247864511854621,0.5397539840865726
+mentions a specific adverse reaction with multiple symptoms,0.6775,0.8169442934739426,0.50936816552579
+"mentions specific neurological symptoms such as hallucinations, numbness, and vision disturbances",0.2991666666666667,0.7997144929600323,0.4895540536208218
+mentions the medication caused the user to feel happy or energetic,0.2708333333333333,0.7575665934065935,0.3981668573657593
+mentions anxiety or panic attacks,0.4891666666666667,0.7446106644508116,0.4316019520907376
+mentions vomiting,0.3125,0.7379426262626263,0.3903487813957699
+mentions the medication being used to treat opiate addiction,0.21666666666666667,0.7114975450081834,0.3153509549730356
+mentions the medication being effective for a specific pain-related condition,0.6383333333333333,0.709701483558133,0.3531061093178536
+mentions absence of side effects,0.49166666666666664,0.706611558766324,0.35617204524964574
+mentions the medication not working,0.7966666666666666,0.6409475958570546,0.22151272129872077
+mentions Suboxone as a treatment for opiate addiction,0.04,0.6033347800925927,0.19387064437525292
+mentions the medication by name (Chantix/Champix),0.18583333333333332,0.5945536578984811,0.1376722804085749

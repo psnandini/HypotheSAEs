@@ -1,0 +1,21 @@
+hypothesis,LLM coef,LLM significant,embedding (binarized) coef,embedding (binarized) significant,embedding (raw) coef,embedding (raw) significant
+mentions a specific dosage in milligrams,-0.033242722984388795,False,0.1049401667284774,False,-0.35948196752124656,True
+"mentions severe psychological symptoms including depression, suicidal thoughts, and panic attacks",-1.0245932725937432,True,-0.7732664509485232,True,-0.45627193749684486,False
+mentions the medication caused the user to feel happy or energetic,1.8988605273327661,True,0.6996458413122111,True,1.1908137910115009,True
+mentions the medication not working,-2.1155766849853457,True,-0.5396126849507769,False,-1.2164567373959507,True
+mentions a specific adverse reaction with multiple symptoms,-0.6572803241461456,True,-0.5578222767691301,True,-0.7970126950642062,True
+mentions severe itching and burning from yeast infection treatment,-0.4736762418848172,False,-0.06212755873434967,False,0.06665080713588993,False
+mentions severe nausea and vomiting,-0.21752807277599634,False,-0.5562628364124481,False,0.8164829392346357,True
+mentions prolonged menstrual bleeding,-0.4375523033282601,False,-0.17008945334994563,False,0.09081474471781471,False
+mentions anxiety or panic attacks,0.36385824584235477,False,0.2674945197832682,False,0.25678478944999056,False
+mentions the medication being effective for a specific pain-related condition,2.0940643032647426,True,0.7160990334167303,True,0.5474968859801277,True
+mentions absence of side effects,0.7678351965780023,True,1.432057795407783,True,1.5924056377409737,True
+"mentions specific side effects that include nausea and headaches, along with mood swings and weight changes",-0.07842841112796799,False,-0.616710223658697,True,-1.0700729816069607,True
+mentions the medication being used to treat opiate addiction,0.5493003364017625,False,0.3472378822542717,False,-0.7250707155885526,False
+mentions the medication by name (Chantix/Champix),-0.12118269056644604,False,-0.05758495253456242,False,0.6431245122660129,True
+"mentions specific neurological symptoms such as hallucinations, numbness, and vision disturbances",-0.9860617363288448,True,-0.061625598457637834,False,-0.01240612699426724,False
+mentions vomiting,-0.02789268428020763,False,0.07532326986642632,False,-0.1184858051040624,False
+mentions not getting pregnant,0.2667907015718279,False,-0.5432118464418553,False,-0.5367148287266249,True
+mentions Suboxone as a treatment for opiate addiction,0.05084488117579291,False,1.7396547226709584,True,0.9395759751337269,True
+"mentions experiencing severe side effects such as vision blurriness, lethargy, and dry skin",-0.9602526891693591,True,-1.1956655112774073,True,-1.252175529110354,True
+"mentions specific weight metrics (e.g., pounds, lbs, or numerical values) related to weight loss progress",0.3521695708286845,False,0.6185082454037832,True,0.40356004024643277,True

@@ -1,0 +1,4 @@
+annotation method,held-out AUROC,significant,time (s)
+LLM (Qwen3-8B),0.9107091264682025,8,1877.01056599617
+"embedding, binarized",0.8049485504105967,9,13.420940160751343
+"embedding, raw cosine",0.9004400440044005,13,13.420940160751343
