@@ -1,10 +1,10 @@
 """OpenAI-compatible vLLM server on Modal, used as the interpreter/annotator LLM for HypotheSAEs.
 
-Deploy:   modal deploy vllm_server.py
+Deploy:   modal deploy modal/vllm_server.py
 Stop:     modal app stop hypothesaes-vllm
 
 The server is protected by the API key in the Modal secret `hypothesaes-vllm-key`
-(the same key is in ../.env.local as OPENAI_KEY_SAE, which HypotheSAEs sends automatically).
+(clients pass the same key as OPENAI_KEY_SAE, which HypotheSAEs sends automatically).
 The container shuts down after SCALEDOWN_MINUTES without requests, so idle time costs nothing.
 """
 import subprocess

@@ -22,8 +22,7 @@ image = (
 )
 app = modal.App("hypothesaes-notebook", image=image)
 
-# Replaces the notebook's `from google.colab import ...` line. (Faking a google.colab
-# module instead makes libraries like accelerate think they are running in Colab.)
+# Replaces the notebook's `from google.colab import ...` line.
 COLAB_IMPORT = "from google.colab import userdata, files"
 COLAB_STUB = (
     "import types\n"

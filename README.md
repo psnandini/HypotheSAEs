@@ -1,3 +1,30 @@
+> ## About this fork
+>
+> I applied the HypotheSAEs method ([Movva et al. 2025](https://arxiv.org/abs/2502.04382)) to two datasets that were not used in the original paper. On Hippocorpus (a dataset of recalled vs. imagined stories ([Sap et al. 2020](https://aclanthology.org/2020.acl-main.178/)), Experiment 1), I was able to get readable hypotheses from the pipeline, but none of them predicted the label on held-out stories (AUROC 0.583, 0/20 significant). I then applied HypotheSAEs on a second dataset (UCI Drug Review dataset of positive vs. negative ratings ([Gräßer et al. 2018](https://doi.org/10.1145/3194658.3194677))), where it worked well (AUROC 0.913, 8/20 significant, Experiment 2). I then ran two follow-up experiments on the drug reviews dataset: (i) can a strongly predictive neuron with a poor label be rescued by relabelling it (Experiment 3), and (ii) can a cosine metric of embedding similarity be used in place of an LLM for annotating hypotheses on held-out data (Experiment 4). The method might have failed on the first Hippocorpus dataset since the target label there classified the data based on style of delivery rather than content. On the other hand, the method worked well on the drug rating dataset, where the target label classified data depending on content primarily. These results suggest HypotheSAEs might work best when the target variable depends on content in the text rather than other properties of the text (such as style of prose).
+>
+> ### Where to look
+>
+> **Changes to the library**
+> - [`hypothesaes/annotate.py`](hypothesaes/annotate.py): new `prompt_suffix` argument for `annotate_single_text`, passed through `annotation_llm_kwargs`. Used to append `" /no_think"`, which turns off Qwen3's thinking mode for yes/no annotation.
+>
+> **Running with an open model on Modal**
+> - [`modal/vllm_server.py`](modal/vllm_server.py): serves Qwen3-8B with vLLM as an OpenAI-compatible endpoint (API key from a Modal secret, 16K context, Qwen3 reasoning parser, scales to zero when idle). The library talks to it through `OPENAI_BASE_URL`.
+> - [`modal/run_notebook.py`](modal/run_notebook.py): runs any of the notebooks below on a Modal GPU instead of Colab.
+>
+> **Experiments** (each notebook runs in Colab or via `modal/run_notebook.py`)
+> - [`notebooks/quickstart_hippocorpus.ipynb`](notebooks/quickstart_hippocorpus.ipynb): recalled vs. imagined stories (Hippocorpus), with outputs.
+> - [`notebooks/quickstart_drug_reviews.ipynb`](notebooks/quickstart_drug_reviews.ipynb): positive vs. negative medication reviews (UCI Drugs.com), with outputs.
+> - [`notebooks/followups_drug_reviews.ipynb`](notebooks/followups_drug_reviews.ipynb): follow-ups on drug reviews: (A) re-interpreting the most predictive neuron with several candidate labels, (B) embedding similarity vs. LLM annotation. Includes outputs (run on Modal).
+> - [`results/`](results/): result tables from all three notebooks (see [`results/README.md`](results/README.md)).
+>
+> **How to run**
+> 1. Deploy the LLM server: `modal secret create hypothesaes-vllm-key VLLM_API_KEY=<any key>`, then `modal deploy modal/vllm_server.py`.
+> 2. Open a notebook in Colab, add the same key as the Colab secret `MODAL_VLLM_KEY`, and run all cells; or run it on Modal with `modal run modal/run_notebook.py --notebook notebooks/<name>.ipynb`.
+>
+> The original README follows below.
+
+---
+
 # HypotheSAEs: Sparse Autoencoders for Hypothesis Generation
 
 [![pypi](https://img.shields.io/pypi/v/hypothesaes?color=blue)](https://pypi.org/project/hypothesaes/)
