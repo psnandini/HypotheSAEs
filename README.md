@@ -1,4 +1,6 @@
-# Applying HypotheSAEs to New Datasets: Recalled vs. Imagined Stories and Drug Reviews
+# Sparse autoencoders find what a text says, not how it says it
+
+### Applying HypotheSAEs to New Datasets: Recalled vs. Imagined Stories and Drug Reviews
 
 > ## About this fork
 >
