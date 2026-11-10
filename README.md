@@ -1,4 +1,4 @@
-# Sparse autoencoders find what a text says, not how it says it
+# Do sparse autoencoders find what a text says rather than how it says it?
 
 ### Applying HypotheSAEs to New Datasets: Recalled vs. Imagined Stories and Drug Reviews
 
