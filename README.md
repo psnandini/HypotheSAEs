@@ -21,7 +21,7 @@
 >
 > **How to run**
 > 1. Deploy the LLM server: `modal secret create hypothesaes-vllm-key VLLM_API_KEY=<any key>`, then `modal deploy modal/vllm_server.py`.
-> 2. Open a notebook in Colab, add the same key as the Colab secret `MODAL_VLLM_KEY`, and run all cells; or run it on Modal with `modal run modal/run_notebook.py --notebook notebooks/<name>.ipynb`.
+> 2. Run a notebook in Colab (setup notes are in its first cell), or on Modal with `modal run modal/run_notebook.py --notebook notebooks/<name>.ipynb`.
 >
 > The original README follows below.
 
